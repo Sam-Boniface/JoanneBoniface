@@ -1,0 +1,559 @@
+/*
+Description: Profile Page Settings
+Author: Sam Boniface
+Version: 1.0
+*/
+
+/* Standard */
+@media screen and (max-width:1920px) and (orientation:landscape){
+	aside#left {
+		position: absolute;
+		top: 0.5vw;
+		left: 3vw;
+		width: 30vw;
+		height: 31.5vw;
+		z-index: 2;
+		border-top: 0.15vw ridge grey;
+		border-bottom: 0.15vw ridge grey;
+		text-align: center;
+	}
+	
+	aside#middle {
+		position: absolute;
+		top: 5.5vw;
+		left: 35vw;
+		width: 30vw;
+		height: 26.5vw;
+		z-index: 2;
+		border-top: 0.15vw ridge grey;
+		border-bottom: 0.15vw ridge grey;
+		text-align: center;
+	}
+	
+	aside#right{
+		position: absolute;
+		top: 0.5vw;
+		right: 3vw;
+		width: 30vw;
+		height: 31.5vw;
+		z-index: 2;
+		border-top: 0.15vw ridge grey;
+		border-bottom: 0.15vw ridge grey;
+		text-align: center;
+	}
+	
+	img#profilepic {
+		position: absolute;
+		width: 24vw;
+		height:  auto;
+		left: 0;
+		right: 0;
+		margin: auto;
+		margin-top: 1vw;
+		margin-bottom: 1vw;
+		border-radius: 1.5vw;
+		box-shadow: 0 0 20px grey;
+	}
+	
+	div#Info {
+		position: absolute;
+		bottom: 0.5vw;
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: 25vw;
+		height: 8vw;
+		font-size: 1vw;
+		line-height: 1.3vw;
+	}
+	
+	div#CV {
+		position: absolute;
+		bottom: 0.5vw;
+		right: 0;
+		width: 5vw;
+		height: 8vw;
+		font-size: 1vw;
+		line-height: 0.8vw;
+		text-align: center;
+	}
+
+	
+	img#Download {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 5vw;
+		height: auto;
+	}
+	
+	h1 {
+		font-family: 'Great Vibes', cursive;
+		font-size: 2.5vw;
+		margin-top: 1vw;
+	}
+	
+	p {
+		text-align: left;
+		font-family: 'Roboto', sans-serif;
+		font-size: 1vw;
+		font-weight: 300;
+		line-height: 1.3vw;
+	}
+	
+	ul {
+		text-align: left;
+		line-height: 1.5vw;
+		list-style-type: disc;
+	}
+	
+	li {
+		margin: 0.5vw 1vw 0.5vw 1vw;
+	}
+}
+
+/* Phone (portrait) */
+@media screen and (min-width:300px) and (max-width:415px) and (orientation:portrait){
+	aside#left {
+		position: relative;
+		top: 42vw;
+		left: 5%;
+		width: 90%;
+		height: auto;
+		padding-bottom: 2vw;
+		z-index: 2;
+		border-bottom: 0.7vw ridge grey;
+		text-align: center;
+	}
+	
+	aside#middle {
+		position: absolute;
+		top: 2vw;
+		left: 5%;
+		width: 90%;
+		height: 37vw;
+		z-index: 2;
+		border-top: 0.7vw ridge grey;
+		border-bottom: 0.7vw ridge grey;
+		text-align: center;
+	}
+	
+	aside#right{
+		position: relative;
+		top: 44vw;
+		left: 5%;
+		width: 90%;
+		height: 76vw;
+		margin-bottom: 5vw;
+		z-index: 2;
+		border-bottom: 0.7vw ridge grey;
+		text-align: center;
+	}
+	
+	img#profilepic {
+		position: absolute;
+		width: 50vw;
+		height:  auto;
+		left: 0;
+		margin-top: 2vw;
+		margin-bottom: 2vw;
+		border-radius: 1.5vw;
+		box-shadow: 0 0 20px grey;
+	}
+	
+	div#Info {
+		position: absolute;
+		margin-top: 0vw;
+		margin-bottom: 2vw;
+		left: 51vw;
+		width: 42vw;
+		height: 40vw;
+		padding-top: 2vw;
+		font-size: 2.7vw;
+		font-weight: bold;
+		line-height: 4.2vw;
+		text-align: center;
+	}
+	
+	div#CV {
+		position: absolute;
+		bottom: 3.5vw;
+		right: 0;
+		margin-right: -7vw;
+		width: 40vw;
+		height: 7vw;
+		font-weight: bold;
+		color: black;
+		font-size: 3.5vw;
+		line-height: 2.5vw;
+		text-align: left;
+		vertical-align: middle;
+	}
+	
+	img#Download {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 12vw;
+		height: auto;
+	}
+	
+	h1 {
+		font-family: 'Great Vibes', cursive;
+		font-size: 6vw;
+		margin-top: 1vw;
+		margin-bottom: 1vw;
+	}
+	
+	p {
+		text-align: left;
+		font-size: 3.5vw;
+	}
+	
+	ul {
+		text-align: left;
+		line-height: 4vw;
+		list-style-type: disc;
+		font-size: 3.5vw;
+	}
+	
+	li {
+		margin: 1vw 2vw 1vw 3vw;
+	}
+}
+
+/* Phone (landscape) */
+@media screen and (min-width:568px) and (max-width:737px) and (orientation:landscape){
+	aside#left {
+		position: absolute;
+		top: 6vw;
+		left: 3vw;
+		width: 30vw;
+		height: 31vw;
+		z-index: 2;
+		border-top: 0.3vw ridge grey;
+		border-bottom: 0.3vw ridge grey;
+		text-align: center;
+		overflow-y: auto;
+	}
+	
+	aside#middle {
+		position: absolute;
+		top: 6vw;
+		left: 35vw;
+		width: 30vw;
+		height: 31vw;
+		z-index: 2;
+		border-top: 0.3vw ridge grey;
+		border-bottom: 0.3vw ridge grey;
+	}
+	
+	aside#right{
+		position: absolute;
+		top: 6vw;
+		right: 3vw;
+		width: 30vw;
+		height: 31vw;
+		z-index: 2;
+		border-top: 0.3vw ridge grey;
+		border-bottom: 0.3vw ridge grey;
+		text-align: center;
+		overflow-y: auto;
+	}
+	
+	img#profilepic {
+		position: absolute;
+		width: 27vw;
+		height:  auto;
+		left: 0;
+		margin-top: 1vw;
+		margin-bottom: 1vw;
+		border-radius: 1.5vw;
+		box-shadow: 0 0 20px grey;
+	}
+	
+	div#Info {
+		position: absolute;
+		bottom: 3.5vw;
+		left: -4vw;
+		width: 25vw;
+		height: 8vw;
+		font-size: 1.6vw;
+		line-height: 2.2vw;
+		text-align: left;		
+	}
+	
+	div#CV {
+		position: absolute;
+		bottom: -3vw;
+		right: -1vw;
+		width: 10vw;
+		height: 16vw;
+		font-size: 1.6vw;
+		line-height: 2vw;
+	}
+	
+	img#Download {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 7vw;
+		height: auto;
+	}
+	
+	h1 {
+		font-family: 'Great Vibes', cursive;
+		font-size: 3vw;
+		margin-top: 1vw;
+		margin-bottom: -0.5vw;
+	}
+	
+	p {
+		text-align: left;
+		font-size: 1.6vw;
+		line-height: 2vw;
+		padding: 1vw 0.5vw;
+	}
+	
+	ul {
+		text-align: left;
+		line-height: 2vw;
+		list-style-type: disc;
+		font-size: 1.6vw;
+	}
+	
+	li {
+		margin: 1vw 2vw 1vw 3vw;
+	}
+}
+
+/* Tablet (portrait) */
+@media screen and (min-width:600px) and (max-width:800px) and (orientation:portrait){
+	aside#left {
+		position: relative;
+		top: 40vw;
+		left: 5%;
+		width: 90%;
+		height: 100vw;
+		z-index: 2;
+		border-bottom: 0.7vw ridge grey;
+		text-align: center;
+	}
+	
+	aside#middle {
+		position: absolute;
+		top: 0;
+		left: 5%;
+		width: 90%;
+		height: 38vw;
+		z-index: 2;
+		border-top: 0.7vw ridge grey;
+		border-bottom: 0.7vw ridge grey;
+		text-align: center;
+	}
+	
+	aside#right{
+		position: relative;
+		top: 43vw;
+		left: 5%;
+		width: 90%;
+		height: 80vw;
+		z-index: 2;
+		border-bottom: 0.7vw ridge grey;
+		text-align: center;
+		margin-bottom: 5vw;
+	}
+	
+	img#profilepic {
+		position: absolute;
+		width: 50vw;
+		height:  auto;
+		left: 0;
+		margin-top: 2vw;
+		margin-bottom: 2vw;
+		border-radius: 1.5vw;
+		box-shadow: 0 0 20px grey;
+	}
+	
+	div#Info {
+		position: absolute;
+		margin-top: 0vw;
+		margin-bottom: 2vw;
+		left: 40vw;
+		width: 60vw;
+		height: 40vw;
+		font-size: 2.8vw;
+		line-height: 4vw;
+		padding-top: 3vw;
+		font-weight: bold;
+	}
+	
+	div#CV {
+		position: absolute;
+		bottom: 7vw;
+		right: 5vw;
+		width: 40vw;
+		height: 2vw;
+		font-size: 2.8vw;
+		line-height: 0.8vw;
+		vertical-align: middle;
+		font-weight: bold;
+	}
+	
+	img#Download {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		margin-right: 2vw;
+		width: 15vw;
+		height: auto;
+	}
+	
+	h1 {
+		font-family: 'Great Vibes', cursive;
+		font-size: 5vw;
+		margin-top: 1vw;
+	}
+	
+	p {
+		text-align: left;
+		font-family: 'Roboto', sans-serif;
+		font-size: 3vw;
+		font-weight: 300;
+		line-height: 4vw;
+		padding: 1vw 0;
+		text-align: justify;
+	}
+	
+	ul {
+		text-align: left;
+		line-height: 4vw;
+		list-style-type: disc;
+		font-size: 3vw;
+	}
+	
+	li {
+		margin: 1vw 2vw 1vw 3vw;
+	}
+}
+
+/* Tablet (landscape) */
+@media screen and (min-width:740px) and (max-width:1024px) and (orientation:landscape){
+	aside#left {
+		position: absolute;
+		top: 10vw;
+		left: 3vw;
+		width: 30vw;
+		height: 39vw;
+		z-index: 2;
+		border-top: 0.3vw ridge grey;
+		border-bottom: 0.3vw ridge grey;
+		text-align: center;
+		overflow-y: auto;
+		margin-bottom: 5vw;
+	}
+	
+	aside#middle {
+		position: absolute;
+		top: 10vw;
+		left: 35vw;
+		width: 30vw;
+		height: 39vw;
+		z-index: 2;
+		border-top: 0.3vw ridge grey;
+		border-bottom: 0.3vw ridge grey;
+		margin-bottom: 5vw;
+	}
+	
+	aside#right{
+		position: absolute;
+		top: 10vw;
+		right: 3vw;
+		width: 30vw;
+		height: 39vw;
+		z-index: 2;
+		border-top: 0.3vw ridge grey;
+		border-bottom: 0.3vw ridge grey;
+		text-align: center;
+		margin-bottom: 5vw;
+		overflow-y: auto;
+	}
+	
+	img#profilepic {
+		position: absolute;
+		width: 28vw;
+		height:  auto;
+		left: 0;
+		margin-top: 1vw;
+		margin-bottom: 1vw;
+		border-radius: 1.5vw;
+		box-shadow: 0 0 20px grey;
+	}
+	
+	div#Info {
+		position: absolute;
+		top: 10vw;
+		width: 30vw;
+		height: 8vw;
+		font-size: 1.6vw;
+		line-height: 2.2vw;
+		text-align: center;
+		font-weight: 300;
+	}
+	
+	div#CV {
+		position: absolute;
+		bottom: 3vw;
+		right: 5vw;
+		width: 30vw;
+		height: 2vw;
+		font-size: 1.6vw;
+		line-height: 0.8vw;
+		vertical-align: middle;
+		font-weight: bold;
+	}
+	
+	img#Download {
+		position: absolute;
+		right: -15vw;
+		width: 8vw;
+		height: auto;
+	}
+	
+	h1 {
+		font-family: 'Great Vibes', cursive;
+		font-size: 3vw;
+		margin-top: 1vw;
+		margin-bottom: -0.5vw;
+	}
+	
+	p {
+		text-align: left;
+		font-size: 1.6vw;
+		line-height: 2vw;
+		padding: 1vw 0.5vw;
+	}
+	
+	ul {
+		text-align: left;
+		line-height: 2vw;
+		list-style-type: disc;
+		font-size: 1.6vw;
+	}
+	
+	li {
+		margin: 0.5vw 1vw 0.5vw 2vw;
+	}
+}

@@ -1,0 +1,505 @@
+/*
+Description: Kitchen Page Settings
+Author: Sam Boniface
+Version: 1.0
+*/
+
+/* Standard */
+@media screen and (max-width:1920px) and (orientation:landscape){
+	div#col1 {
+		position: absolute;
+		top: 0.5vw;
+		left: 3vw;
+		width: 30vw;
+		height: 31.5vw;
+		z-index: 2;
+		border-top: 0.15vw ridge grey;
+		border-bottom: 0.15vw ridge grey;
+		margin-bottom: 2vw;
+	}
+	
+	div#col2 {
+		position: absolute;
+		top: 5.5vw;
+		left: 35vw;
+		width: 30vw;
+		height: 26.5vw;
+		z-index: 2;
+		border-top: 0.15vw ridge grey;
+		border-bottom: 0.15vw ridge grey;
+		margin-bottom: 2vw;
+	}
+	
+	div#col3 {
+		position: absolute;
+		top: 0.5vw;
+		right: 2vw;
+		width: 30vw;
+		height: 31.5vw;
+		z-index: 2;
+		border-top: 0.15vw ridge grey;
+		border-bottom: 0.15vw ridge grey;
+		margin-bottom: 2vw;
+	}
+	
+	div.imgHolder {
+		position: relative;
+		width: 21vw;
+		height: 13vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 2vw;
+		margin-bottom: 2vw;
+		border-radius: 1.5vw;
+		box-shadow: 0 0 20px grey;
+		z-index: 4;
+		cursor: pointer;
+	}
+	
+	a.hover-over {
+		position: absolute;
+		top: -2.3vw;
+		width: 21vw;
+		height: 7vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 5.5vw;
+		margin-bottom: 5.5vw;
+		z-index: 5;
+		background-color: rgba(255,255,255,0.6);
+		font-family: 'Great Vibes', cursive;
+		color: black;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 3vw;
+		line-height: 7vw;
+		cursor: pointer;
+		text-transform: none;
+		text-shadow: none;
+		visibility: hidden;
+	}
+
+	div.imgHolder:hover > a.hover-over {
+		visibility: visible;
+	}
+	
+	img.rangemain {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 30vw;
+		height: auto;
+		margin-left: -4vw;
+	}
+	
+	div.click {
+		position: relative;
+		margin: 0 auto;
+		height: 7.7vw;
+		box-shadow: none;
+		width: 21vw;
+		margin-top: 2vw;
+		margin-bottom: 2vw;
+	}
+}
+
+/* Phone (portrait) */
+@media screen and (min-width:300px) and (max-width:415px) and (orientation:portrait){
+	div#col1 {
+		position: absolute;
+		top: 80vw;
+		left: 5%;
+		width: 90%;
+		height: auto;
+		z-index: 2;
+		margin-top: 2vw;
+		margin-bottom: 2vw;
+	}
+	
+	div#col2 {
+		position: absolute;
+		top: 0;
+		left: 5%;
+		width: 90%;
+		height: auto;
+		z-index: 2;
+		margin-top: 2vw;
+		border-top: 0.7vw ridge grey;
+	}
+	
+	div#col3 {
+		position: absolute;
+		top: 190vw;
+		left: 5%;
+		width: 90%;
+		height: auto;
+		z-index: 2;
+		border-bottom: 0.7vw ridge grey;
+		margin-top: 2vw;
+		margin-bottom: 10vw;
+	}
+	
+	div.imgHolder {
+		position: relative;
+		width: 70vw;
+		height: 50vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 5vw;
+		margin-bottom: 5vw;
+		border-radius: 1.5vw;
+		box-shadow: 0 0 20px grey;
+		z-index: 4;
+		cursor: pointer;
+	}
+
+	a.hover-over {
+		position: absolute;
+		top: 10vw;
+		width: 70vw;
+		height: 20vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 5.5vw;
+		margin-bottom: 5.5vw;
+		z-index: 5;
+		background-color: rgba(255,255,255,0.6);
+		font-family: 'Great Vibes', cursive;
+		color: black;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 8vw;
+		line-height: 20vw;
+		cursor: pointer;
+		text-transform: none;
+		text-shadow: none;
+		visibility: visible;
+	}
+	
+	img.rangemain {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 80vw;
+		height: auto;
+		margin-left: -4vw;
+	}
+	
+	div.click {
+		position: relative;
+		margin: 0 auto;
+		height: 20vw;
+		box-shadow: none;
+		width: 70vw;
+		margin-top: 5vw;
+		margin-bottom: 5vw;
+	}
+}
+
+/* Phone (landscape) */
+@media screen and (min-width:568px) and (max-width:737px) and (orientation:landscape){
+	div#col1 {
+		position: absolute;
+		top: 6vw;
+		left: 3vw;
+		width: 30vw;
+		height: 31vw;
+		z-index: 2;
+		border-top: 0.3vw ridge grey;
+		border-bottom: 0.3vw ridge grey;
+		margin-bottom: 2vw;
+	}
+	
+	div#col2 {
+		position: absolute;
+		top: 6vw;
+		left: 35vw;
+		width: 30vw;
+		height: 31vw;
+		z-index: 2;
+		border-top: 0.3vw ridge grey;
+		border-bottom: 0.3vw ridge grey;
+		margin-bottom: 2vw;
+	}
+	
+	div#col3 {
+		position: absolute;
+		top: 6vw;
+		right: 2vw;
+		width: 30vw;
+		height: 31vw;
+		z-index: 2;
+		border-top: 0.3vw ridge grey;
+		border-bottom: 0.3vw ridge grey;
+		margin-bottom: 2vw;
+	}
+	
+	div.imgHolder {
+		position: relative;
+		width: 25vw;
+		height: 14vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 1vw;
+		margin-bottom: 1vw;
+		border-radius: 1.5vw;
+		box-shadow: 0 0 20px grey;
+		z-index: 4;
+		cursor: pointer;
+	}
+	
+	a.hover-over {
+		position: absolute;
+		top: -2.3vw;
+		width: 25vw;
+		height: 7vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 5.5vw;
+		margin-bottom: 5.5vw;
+		z-index: 5;
+		background-color: rgba(255,255,255,0.6);
+		font-family: 'Great Vibes', cursive;
+		color: black;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 3vw;
+		line-height: 8vw;
+		cursor: pointer;
+		text-transform: none;
+		text-shadow: none;
+		visibility: visible;
+	}
+	
+	img.rangemain {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 35vw;
+		height: auto;
+		margin-left: -7vw;
+	}
+	
+	div.click {
+		position: relative;
+		margin: 0 auto;
+		height: 12vw;
+		box-shadow: none;
+		width: 21vw;
+		margin-top: 1.9vw;
+		margin-bottom: 1.9vw;
+	}
+}
+
+/* Tablet (portrait) */
+@media screen and (min-width:600px) and (max-width:800px) and (orientation:portrait){
+	section {
+		position: absolute;
+		top: 11vw;
+		width: 100%;
+		height: 80%;
+		z-index: 1;
+		background-color: lightgrey;
+		overflow-y: auto;
+	}
+	
+	div#col1 {
+		position: absolute;
+		top: 82vw;
+		left: 5%;
+		width: 90%;
+		height: auto;
+		z-index: 2;
+		margin-top: 2vw;
+		margin-bottom: 2vw;
+	}
+	
+	div#col2 {
+		position: absolute;
+		top: 0;
+		left: 5%;
+		width: 90%;
+		height: auto;
+		z-index: 2;
+		margin-top: 2vw;
+		border-top: 0.7vw ridge grey;
+	}
+	
+	div#col3 {
+		position: absolute;
+		top: 196vw;
+		left: 5%;
+		width: 90%;
+		height: auto;
+		z-index: 2;
+		border-bottom: 0.7vw ridge grey;
+		margin-top: 2vw;
+		margin-bottom: 6vw;
+	}
+	
+	div.imgHolder {
+		position: relative;
+		width: 70vw;
+		height: 50vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 7vw;
+		margin-bottom: 7vw;
+		border-radius: 1.5vw;
+		box-shadow: 0 0 20px grey;
+		z-index: 4;
+		cursor: pointer;
+	}
+	
+	a.hover-over {
+		position: absolute;
+		top: 9vw;
+		width: 70vw;
+		height: 20vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 5.5vw;
+		margin-bottom: 5.5vw;
+		z-index: 5;
+		background-color: rgba(255,255,255,0.6);
+		font-family: 'Great Vibes', cursive;
+		color: black;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 7vw;
+		line-height: 20vw;
+		cursor: pointer;
+		text-transform: none;
+		text-shadow: none;
+		visibility: visible;
+	}
+	
+	img.rangemain {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 80vw;
+		height: auto;
+		margin-left: -4vw;
+	}
+	
+	div.click {
+		position: relative;
+		margin: 0 auto;
+		height: 20vw;
+		box-shadow: none;
+		width: 70vw;
+		margin-top: 5vw;
+		margin-bottom: 5vw;
+	}
+}
+
+/* Tablet (landscape) */
+@media screen and (min-width:740px) and (max-width:1024px) and (orientation:landscape){
+	div#col1 {
+		position: absolute;
+		top: 10vw;
+		left: 3vw;
+		width: 30vw;
+		height: 39vw;
+		z-index: 2;
+		border-top: 0.3vw ridge grey;
+		border-bottom: 0.3vw ridge grey;
+		margin-bottom: 5vw;
+	}
+	
+	div#col2 {
+		position: absolute;
+		top: 10vw;
+		left: 35vw;
+		width: 30vw;
+		height: 39vw;
+		z-index: 2;
+		border-top: 0.3vw ridge grey;
+		border-bottom: 0.3vw ridge grey;
+		margin-bottom: 5vw;
+	}
+	
+	div#col3 {
+		position: absolute;
+		top: 10vw;
+		right: 2vw;
+		width: 30vw;
+		height: 39vw;
+		z-index: 2;
+		border-top: 0.3vw ridge grey;
+		border-bottom: 0.3vw ridge grey;
+		margin-bottom: 5vw;
+	}
+	
+	div.imgHolder {
+		position: relative;
+		width: 30vw;
+		height: 18vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 1vw;
+		margin-bottom: 1vw;
+		border-radius: 1.5vw;
+		box-shadow: 0 0 20px grey;
+		z-index: 4;
+		cursor: pointer;
+	}
+	
+	a.hover-over {
+		position: absolute;
+		top: 0vw;
+		width: 30vw;
+		height: 7vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 5.5vw;
+		margin-bottom: 5.5vw;
+		z-index: 5;
+		background-color: rgba(255,255,255,0.6);
+		font-family: 'Great Vibes', cursive;
+		color: black;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 3vw;
+		line-height: 8vw;
+		cursor: pointer;
+		text-transform: none;
+		text-shadow: none;
+		visibility: visible;
+	}
+	
+	img.rangemain {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 40vw;
+		height: auto;
+		margin-left: -7vw;
+	}
+	
+	div.click {
+		position: relative;
+		margin: 0 auto;
+		height: 18vw;
+		box-shadow: none;
+		width: 26vw;
+		margin-top: 1vw;
+		margin-bottom: 1vw;
+	}
+}

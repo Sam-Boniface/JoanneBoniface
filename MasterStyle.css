@@ -1,0 +1,17 @@
+@import "Reset.css";
+@import "Navigation.css";
+@import "Home.css";
+@import "Kitchens.css";
+@import "Profile.css";
+@import "Ranges.css";
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300');
+
+body {
+	width: 100%;
+	height: 100%;
+	color: black;
+	font-family: 'Work Sans', sans-serif;
+	overflow: hidden;
+	background-color: lightgrey;
+}

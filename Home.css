@@ -1,0 +1,250 @@
+/*
+Description: Home Page Settings
+Author: Sam Boniface
+Version: 1.0
+*/
+
+/* Standard */
+@media screen and (max-width:1920px) and (orientation:landscape){
+	div#divload {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+		z-index: 20;
+	}
+	
+	img#Logo-fade {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 50%;
+		height: auto;
+	}
+	
+	div#mySlides {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	div#mySlides2 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	img.slideshow {
+		width: 110%;
+		height: auto;
+		margin-left: -10%;
+		margin-top: -5%;
+	}
+}
+
+/* Phone (portrait) */
+@media screen and (min-width:300px) and (max-width:415px) and (orientation:portrait){
+	div#divload {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+		z-index: 20;
+	}
+	
+	img#Logo-fade {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 50%;
+		height: auto;
+	}
+	
+	div#mySlides {
+		position: absolute;
+		top: 7vw;
+		left: 0;
+		width: 100%;
+		height: 70%;
+		overflow: hidden;
+	}
+	
+	div#mySlides2 {
+		position: absolute;
+		top: 7vw;
+		left: 0;
+		width: 100%;
+		height: 70%;
+		overflow: hidden;
+	}
+	
+	img.slideshow {
+		width: 300%;
+		height: auto;
+		margin-left: -100%;
+		margin-top: -20%;
+	}
+}
+
+/* Phone (landscape) */
+@media screen and (min-width:568px) and (max-width:737px) and (orientation:landscape){
+	div#divload {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+		z-index: 20;
+	}
+	
+	img#Logo-fade {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 50%;
+		height: auto;
+	}
+	
+	div#mySlides {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	div#mySlides2 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	img.slideshow {
+		width: 120%;
+		height: auto;
+		margin-left: -10%;
+		margin-top: -20%;
+	}
+}
+
+/* Tablet (portrait) */
+@media screen and (min-width:600px) and (max-width:800px) and (orientation:portrait){
+	div#divload {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+		z-index: 20;
+	}
+	
+	img#Logo-fade {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 50%;
+		height: auto;
+	}
+	
+	div#mySlides {
+		position: absolute;
+		top: 7vw;
+		left: 0;
+		width: 100%;
+		height: 80%;
+		overflow: hidden;
+	}
+	
+	div#mySlides2 {
+		position: absolute;
+		top: 7vw;
+		left: 0;
+		width: 100%;
+		height: 80%;
+		overflow: hidden;
+	}
+	
+	img.slideshow {
+		width: 300%;
+		height: auto;
+		margin-left: -100%;
+		margin-top: -20%;
+	}
+}
+
+/* Tablet (landscape) */
+@media screen and (min-width:740px) and (max-width:1024px) and (orientation:landscape){
+	div#divload {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: white;
+		z-index: 20;
+	}
+	
+	img#Logo-fade {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		width: 50%;
+		height: auto;
+	}
+	
+	div#mySlides {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	div#mySlides2 {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	img.slideshow {
+		width: 200%;
+		height: auto;
+		margin-left: -40%;
+		margin-top: -20%;
+	}
+}

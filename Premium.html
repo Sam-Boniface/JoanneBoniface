@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> Joanne Boniface - Kitchen Designs - Premium Range </title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="initial-scale=1, viewport-fit=cover">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="stylesheet" href="CSS/MasterStyle.css"/>
+	<script src="jquery-3.2.1.js"></script>
+	<script src="MyScript.js"> </script>
+</head>
+<body onload="Range(2)">
+	<header id="header">
+		<div id="Logo-overlay">
+			<a id="Home" href="Index.html">
+				<img id="Logo" alt="Joanne Boniface" src="Logo.png"/>
+			</a>
+		</div>
+	</header>
+	
+	 <div id="enlarged"> 
+		<div id="close" onclick="enlargeclose()"> X </div>
+		<div id="currentdesignholder">
+			<img id="currentdesign" src="Designs/Shaker/0/1.jpg" alt=""/>
+		</div>
+	</div>
+	
+	<main id="main">	
+		<div id="col4">
+			<div class="imgHolder2">
+				<img class="range" alt="range" src="Ranges/Premium Slab Door.jpg"/>
+				<div class="overlay-text">
+					Premium Range
+				</div>
+			</div>
+			<a id="NextRange" title="Next Range" class="navigation" href="Handleless.html"> > </a>
+			<a id="PreviousRange" title="Previous Range" class="navigation" href="Solid.html"> < </a>
+	
+			<div class="Design-list">
+				<h3 id="D1" class="Option" onclick="designchange(0)"> Design 1 </h3>
+				<h3 id="D2" class="Option" onclick="designchange(1)"> Design 2 </h3>
+				<h3 id="D3" class="Option" onclick="designchange(2)"> Design 3 </h3>
+				<h3 id="D4" class="Option" onclick="designchange(3)"> Design 4 </h3>
+				<h3 id="D5" class="Option" onclick="designchange(4)"> Design 5 </h3>
+				<h3 id="D6" class="Option" onclick="designchange(5)"> Design 6 </h3>
+				<h3 id="D7" class="Option" onclick="designchange(6)"> Design 7 </h3>
+				<h3 id="D8" class="Option" onclick="designchange(7)"> Design 8 </h3>
+			</div>
+		</div>
+		
+		<aside id="viewer">
+			<div id="main-img-holder"> 
+				<img id="main-img" src="Designs/premium/0/1.jpg" onclick="enlarge()" alt=""/> 
+			</div>
+			
+			<div id="A1" class="sub-img-holder">
+				<img class="sub-img" id="0" src="Designs/premium/0/1.jpg" onclick="imgchange(0)" alt="" onerror="hideimg(0)"/>
+			</div>	
+			
+			<div id="A2" class="sub-img-holder">	
+				<img class="sub-img" id="1" src="Designs/premium/0/2.jpg" onclick="imgchange(1)" alt="" onerror="hideimg(1)"/>
+			</div>
+			
+			<div id="A3" class="sub-img-holder">
+				<img class="sub-img" id="2" src="Designs/premium/0/3.jpg" onclick="imgchange(2)" alt="" onerror="hideimg(2)"/>
+			</div>
+			
+			<div id="A4" class="sub-img-holder2">
+				<img class="sub-img" id="3" src="Designs/premium/0/4.jpg" onclick="imgchange(3)" alt="" onerror="hideimg(3)"/>
+			</div>
+			
+			<div id="A5" class="sub-img-holder2">
+				<img class="sub-img" id="4" src="Designs/premium/0/5.jpg" onclick="imgchange(4)" alt="" onerror="hideimg(4)"/>
+			</div>
+			
+			<div id="A6" class="sub-img-holder2">
+				<img class="sub-img" id="5" src="Designs/premium/0/6.jpg" onclick="imgchange(5)" alt="" onerror="hideimg(5)"/>
+			</div>
+			
+			<div id="A7" class="sub-img-holder3">
+				<img class="sub-img" id="6" src="Designs/premium/0/Plan.jpg" onclick="imgchange(6)" alt="" onerror="hideimg(6)"/>
+			</div>
+		</aside>
+		
+		<aside id="disclaimer">
+			All designs shown are based on the Benchmarx kitchen ranges but are my own designs. <br><br>
+		</aside>
+	</main>
+	
+	<div id="spacer">
+	</div>
+	
+	<footer id="footer">
+		<div id="Links">
+			<a id="Profile" href="Profile.html">About<br>Me</a>
+			<a id="Kitchens" href="Kitchens.html">Kitchen<br>Designs</a>
+		</div>
+		<hr>
+		<div id="contact">
+			<a id="email" href="mailto:joanne.boniface@hotmail.com?Subject=Enquiry"> joanne.boniface@hotmail.com </a>
+			<a id="phone" href="tel:+447931255588"> 07931 255 588 </a>
+		</div>
+	</footer>
+</body>
+</html>

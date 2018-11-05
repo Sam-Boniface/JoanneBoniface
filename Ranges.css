@@ -1,0 +1,1498 @@
+/*
+Description: Range Page Settings
+Author: Sam Boniface
+Version: 1.0
+*/
+
+/* Standard */
+@media screen and (max-width:1920px) and (orientation:landscape){
+	div#col4 {
+		position: absolute;
+		top: 0.5vw;
+		left: 3vw;
+		width: 30vw;
+		height: 31.5vw;
+		z-index: 2;
+		border-top: 0.15vw ridge grey;
+		border-bottom: 0.15vw ridge grey;
+		margin-bottom: 2vw;
+	}
+
+	div.imgHolder2 {
+		position: relative;
+		width: 21vw;
+		height: 13vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 2vw;
+		margin-bottom: 2.5vw;
+		border-radius: 1.5vw;
+		box-shadow: 0 0 20px grey;
+		z-index: 4;
+	}
+	
+	div.overlay-text {
+		position: absolute;
+		top: -2.3vw;
+		width: 21vw;
+		height: 7vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 5.5vw;
+		margin-bottom: 5.5vw;
+		z-index: 5;
+		background-color: rgba(255,255,255,0.6);
+		font-family: 'Great Vibes', cursive;
+		color: black;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 3vw;
+		line-height: 7vw;
+		text-transform: none;
+		text-shadow: none;
+	}
+	
+	img.range {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 30vw;
+		height: auto;
+		margin-left: -4vw;
+	}
+	
+	div.Design-list {
+		position: relative;
+		height: 14vw;
+		top: -1vw;
+		width: 30vw;
+		overflow-y: auto;
+	}
+	
+	aside#disclaimer {
+		position: absolute;
+		top: 1vw;
+		right: 3vw;
+		width: 30vw;
+		height: 6.5vw;
+		font-weight: bold;
+		font-size: 1vw;
+	}
+	
+	aside#viewer {
+		position: absolute;
+		top: 5.5vw;
+		left: 35vw;
+		width: 62vw;
+		height: 26.5vw;
+		border-top: 0.15vw ridge grey;
+		border-bottom: 0.15vw ridge grey;
+	}
+	
+	img#main-img {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 45vw;
+		height: auto;
+		margin-left: -5vw;
+		cursor: pointer;
+	}
+	
+	div#main-img-holder {
+		position: absolute;
+		left: 1vw;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 38vw;
+		height: 23vw;
+		border-radius: 2vw;
+		overflow: hidden;
+		box-shadow: 0 0 30px 5px grey;
+	}
+	
+	div.sub-img-holder {
+		position: relative;
+		width: 9vw;
+		height: 5.5vw;
+		margin: 1vw 0 -0.4vw 42.5vw;
+		border-radius: 1vw;
+		overflow: hidden;
+		box-shadow: 0 0 20px grey;
+	}
+	
+	div.sub-img-holder2 {
+		position: relative;
+		top: -18.3vw;
+		margin: 1vw 0 -0.4vw 52.5vw;
+		width: 9vw;
+		height: 5.5vw;
+		border-radius: 1vw;
+		overflow: hidden;
+		box-shadow: 0 0 20px grey;
+	}
+	
+	div.sub-img-holder3 {
+		position: absolute;
+		bottom: 1vw;
+		right: 5.5vw;
+		width: 9vw;
+		height: 5.5vw;
+		border-radius: 1vw;
+		overflow: hidden;
+		box-shadow: 0 0 20px grey;
+	}
+	
+	div.sub-img-holder:hover {
+		cursor: pointer;
+		box-shadow: 0 0 20px purple;
+	}
+	
+	div.sub-img-holder2:hover {
+		cursor: pointer;
+		box-shadow: 0 0 20px purple;
+	}
+	
+	div.sub-img-holder3:hover {
+		cursor: pointer;
+		box-shadow: 0 0 20px purple;
+	}
+	
+	img.sub-img {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 12vw;
+		height: auto;
+		margin-left: -2vw;
+	}
+	
+	a.navigation {
+		position: absolute;
+		top: 7.7vw;
+		height: 2vw;
+		width: 2vw;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		font-weight: bold;
+		font-size: 1.5vw;
+		line-height: 2vw;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 6;
+		border-radius: 5vw;
+	}
+	
+	a.navigation:hover {
+		cursor: pointer;
+		background-color: rgba(128,0,128,0.5);
+	}
+	
+	a#NextRange {
+		right: 1.7vw;
+	}
+	
+	a#PreviousRange {
+		left: 1.7vw;
+	}
+	
+	div.navigation {
+		position: absolute;
+		top: 20vw;
+		height: 2.5vw;
+		width: 2.5vw;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		font-weight: bold;
+		font-size: 1.5vw;
+		line-height: 2.1vw;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 6;
+		border-radius: 5vw;
+	}
+	
+	div#NextImage {
+		left: 71vw;
+	}
+	
+	div#PreviousImage {
+		left: 37vw;
+	}
+	
+	div.navigation:hover {
+		cursor: pointer;
+		background-color: rgba(128,0,128,0.5);
+	}
+	
+	div#enlarged {
+		position: absolute;
+		top: 2vw;
+		left: 2vw;
+		width: 95%;
+		height: 92%;
+		background-color: rgba(0,0,0,0.8);
+		z-index: 20;
+		visibility: hidden;
+	}
+	
+	div#currentdesignholder {
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: auto;
+		top: 5%;
+		width: 90%;
+		height: 90%;
+		overflow: hidden;
+	}
+	
+	img#currentdesign {
+		width: 100%;
+		height: auto;
+		margin-top: -5%;
+	}
+	
+	div#close {
+		position: absolute;
+		top: 0.6vw;
+		right: 1vw;
+		color: white;
+	}
+	
+	div#close:hover {
+		text-shadow: 0 0 10px MEDIUMORCHID;
+		color: MEDIUMORCHID;
+		cursor: pointer;
+	}
+	
+	h3.Option {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		padding: 0.3vw;
+		text-align: center;
+		text-shadow: 0 0 10px grey;
+	}
+	
+	h3.Current {
+		font-weight: bold;
+	}
+	
+	h3.Option:hover {
+		color: purple;
+		text-shadow: 0 0 10px purple;
+		cursor: pointer;
+	}
+}
+
+/* Phone (portrait) */
+@media screen and (min-width:300px) and (max-width:414px) and (orientation:portrait){	
+	div#col4 {
+		position: absolute;
+		top: 5vw;
+		left: 5%;
+		width: 90%;
+		height: 36vw;
+		z-index: 2;
+		margin-top: 2vw;
+		border-top: 0.7vw ridge grey;
+		border-bottom: 0.7vw ridge grey;
+	}
+
+	div.imgHolder2 {
+		position: relative;
+		top: -5vw;
+		left: -13.5vw;
+		width: 50vw;
+		height: 32vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 7vw;
+		margin-bottom: 7vw;
+		border-radius: 1.5vw;
+		box-shadow: 0 0 20px grey;
+		z-index: 4;
+		cursor: pointer;
+	}
+	
+	div.overlay-text {
+		position: absolute;
+		top: 6vw;
+		width: 50vw;
+		height: 10vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 5.5vw;
+		margin-bottom: 5.5vw;
+		z-index: 5;
+		background-color: rgba(255,255,255,0.6);
+		font-family: 'Great Vibes', cursive;
+		color: black;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 6vw;
+		line-height: 12vw;
+		cursor: pointer;
+		text-transform: none;
+		text-shadow: none;
+	}
+	
+	img.range {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 54vw;
+		height: auto;
+		margin-left: -4vw;
+	}
+	
+	div.Design-list {
+		position: absolute;
+		right: 1vw;
+		height: 33vw;
+		top: 1vw;
+		width: 26vw;
+		overflow-y: auto;
+	}
+	
+	h3.Option {
+		padding: 0.3vw;
+		text-align: center;
+		text-shadow: 0 0 10px grey;
+		font-size: 4vw;
+		line-height: 4vw;
+	}
+	
+	h3.Current {
+		font-weight: bold;
+	}
+	
+	h3.Option:hover {
+		color: purple;
+		text-shadow: 0 0 10px purple;
+		cursor: pointer;
+	}
+	
+	aside#disclaimer {
+		position: absolute;
+		top: 0;
+		left: 5%;
+		width: 90%;
+		text-align: center;
+		font-size: 3vw;
+	}
+	
+	aside#viewer {
+		position: absolute;
+		top: 46vw;
+		left: 5%;
+		width: 90%;
+		height: 70vw;
+		border-bottom: 0.7vw ridge grey;
+		margin-bottom: 2vw;
+		z-index: 9;
+	}
+	
+	img#main-img {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 78vw;
+		height: auto;
+		margin-left: -5vw;
+		cursor: pointer;
+	}
+	
+	div#main-img-holder {
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 68vw;
+		height: 42vw;
+		border-radius: 2vw;
+		overflow: hidden;
+		box-shadow: 0 0 30px 5px grey;
+		border: 1px solid grey;
+	}
+	
+	div.sub-img-holder {
+		position: relative;
+		top: -1vw;
+		right: -72vw;
+		width: 16vw;
+		height: 9vw;
+		margin: 0.5vw 0 0.5vw 0;
+		border-radius: 1vw;
+		overflow: hidden;
+		box-shadow: 0 0 20px grey;
+		border: 1px solid grey;
+	}
+	
+	div.sub-img-holder2 {
+		position: relative;
+		top: -1vw;
+		right: -72vw;
+		margin: 0.5vw 0 0.5vw 0;
+		width: 16vw;
+		height: 9vw;
+		border-radius: 1vw;
+		overflow: hidden;
+		box-shadow: 0 0 20px grey;
+		border: 1px solid grey;
+	}
+	
+	div.sub-img-holder3 {
+		position: relative;
+		top: -1vw;
+		right: -72vw;
+		margin: 0.5vw 0 0.5vw 0;
+		width: 16vw;
+		height: 9vw;
+		border-radius: 1vw;
+		overflow: hidden;
+		box-shadow: 0 0 20px grey;
+		border: 1px solid grey;
+	}
+	
+	div.sub-img-holder:hover {
+		cursor: pointer;
+		box-shadow: 0 0 20px purple;
+	}
+	
+	div.sub-img-holder2:hover {
+		cursor: pointer;
+		box-shadow: 0 0 20px purple;
+	}
+	
+	div.sub-img-holder3:hover {
+		cursor: pointer;
+		box-shadow: 0 0 20px purple;
+	}
+	
+	img.sub-img {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 23vw;
+		height: auto;
+		margin-left: -2vw;
+	}
+	
+	a.navigation {
+		position: absolute;
+		top: 13.5vw;
+		height: 10vw;
+		width: 4vw;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		font-weight: bold;
+		font-size: 4vw;
+		line-height: 9.7vw;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 6;
+		border-radius: 5vw;
+	}
+	
+	a.navigation:hover {
+		cursor: pointer;
+		background-color: rgba(128,0,128,0.5);
+	}
+	
+	a#NextRange {
+		left: 58vw;
+	}
+	
+	a#PreviousRange {
+		left: 0;
+	}
+	
+	div.navigation {
+		position: absolute;
+		top: 1vw;
+		height: 2.5vw;
+		width: 2.5vw;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		font-weight: bold;
+		font-size: 1.5vw;
+		line-height: 2.1vw;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 6;
+		border-radius: 5vw;
+	}
+	
+	div#NextImage {
+		left: 71vw;
+	}
+	
+	div#PreviousImage {
+		left: 37vw;
+	}
+	
+	div.navigation:hover {
+		cursor: pointer;
+		background-color: rgba(128,0,128,0.5);
+	}
+	
+	div#enlarged {
+		position: absolute;
+		top: 30vw;
+		right: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: 95%;
+		height: 40%;
+		background-color: rgba(0,0,0,0.8);
+		z-index: 20;
+		visibility: hidden;
+	}
+	
+	div#currentdesignholder {
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: auto;
+		top: 10%;
+		width: 98%;
+		height: 90%;
+		overflow: hidden;
+	}
+	
+	img#currentdesign {
+		width: 100%;
+		height: auto;
+		margin-top: -5%;
+	}
+	
+	div#close {
+		position: absolute;
+		top: 0.6vw;
+		right: 1vw;
+		color: white;
+		font-size: 4vw;
+	}
+	
+	div#close:hover {
+		text-shadow: 0 0 10px MEDIUMORCHID;
+		color: MEDIUMORCHID;
+		cursor: pointer;
+	}
+}
+
+/* Phone (landscape) */
+@media screen and (min-width:568px) and (max-width:737px) and (orientation:landscape){
+	div#col4 {
+		position: absolute;
+		top: 6vw;
+		left: 3vw;
+		width: 30vw;
+		height: 31vw;
+		z-index: 2;
+		border-top: 0.3vw ridge grey;
+		border-bottom: 0.3vw ridge grey;
+		margin-bottom: 2vw;
+	}
+
+	div.imgHolder2 {
+		position: relative;
+		top: -1vw;
+		width: 25vw;
+		height: 15vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 2.5vw;
+		margin-bottom: 2.5vw;
+		border-radius: 1.5vw;
+		box-shadow: 0 0 20px grey;
+		z-index: 4;
+	}
+	
+	div.overlay-text {
+		position: absolute;
+		top: -1.5vw;
+		width: 25vw;
+		height: 7vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 5.5vw;
+		margin-bottom: 5.5vw;
+		z-index: 5;
+		background-color: rgba(255,255,255,0.6);
+		font-family: 'Great Vibes', cursive;
+		color: black;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 3vw;
+		line-height: 7vw;
+		text-transform: none;
+		text-shadow: none;
+	}
+	
+	img.range {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 30vw;
+		height: auto;
+		margin-left: -4vw;
+	}
+	
+	div.Design-list {
+		position: relative;
+		height: 13vw;
+		top: -2.5vw;
+		width: 30vw;
+		overflow-y: auto;
+	}
+	
+	aside#disclaimer {
+		position: absolute;
+		top: 0.5vw;
+		right: 2vw;
+		width: 27vw;
+		font-size: 1.7vw;
+	}
+	
+	aside#viewer {
+		position: absolute;
+		top: 6vw;
+		left: 35vw;
+		width: 62vw;
+		height: 31vw;
+		border-top: 0.3vw ridge grey;
+		border-bottom: 0.3vw ridge grey;
+	}
+	
+	img#main-img {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 47vw;
+		height: auto;
+		margin-left: -5vw;
+		cursor: pointer;
+	}
+	
+	div#main-img-holder {
+		position: absolute;
+		left: 1vw;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 38vw;
+		height: 23vw;
+		border-radius: 2vw;
+		overflow: hidden;
+		box-shadow: 0 0 30px 5px grey;
+		border: 1px solid grey;
+	}
+	
+	div.sub-img-holder {
+		position: relative;
+		width: 9vw;
+		height: 6.5vw;
+		top: 0.5vw;
+		margin: 0.5vw 0 0.5vw 41.5vw;
+		border-radius: 1vw;
+		overflow: hidden;
+		box-shadow: 0 0 20px grey;
+		border: 1px solid grey;
+	}
+	
+	div.sub-img-holder2 {
+		position: relative;
+		top: -21.3vw;
+		margin: 0.5vw 0 0.5vw 51.5vw;
+		width: 9vw;
+		height: 6.5vw;
+		border-radius: 1vw;
+		overflow: hidden;
+		box-shadow: 0 0 20px grey;
+		border: 1px solid grey;
+	}
+	
+	div.sub-img-holder3 {
+		position: absolute;
+		bottom: 1vw;
+		right: 6vw;
+		width: 9vw;
+		height: 6.5vw;
+		border-radius: 1vw;
+		overflow: hidden;
+		box-shadow: 0 0 20px grey;
+		border: 1px solid grey;
+	}
+	
+	div.sub-img-holder:hover {
+		cursor: pointer;
+		box-shadow: 0 0 20px purple;
+	}
+	
+	div.sub-img-holder2:hover {
+		cursor: pointer;
+		box-shadow: 0 0 20px purple;
+	}
+	
+	div.sub-img-holder3:hover {
+		cursor: pointer;
+		box-shadow: 0 0 20px purple;
+	}
+	
+	img.sub-img {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 14vw;
+		height: auto;
+		margin-left: -2vw;
+	}
+	
+	a.navigation {
+		position: absolute;
+		top: 7vw;
+		height: 4vw;
+		width: 2vw;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		font-weight: bold;
+		font-size: 2vw;
+		line-height: 3.7vw;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 6;
+		border-radius: 5vw;
+	}
+	
+	a.navigation:hover {
+		cursor: pointer;
+		background-color: rgba(128,0,128,0.5);
+	}
+	
+	a#NextRange {
+		right: 0;
+	}
+	
+	a#PreviousRange {
+		left: 0;
+	}
+	
+	div.navigation {
+		position: absolute;
+		top: 20vw;
+		height: 2.5vw;
+		width: 2.5vw;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		font-weight: bold;
+		font-size: 1.5vw;
+		line-height: 2.1vw;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 6;
+		border-radius: 5vw;
+	}
+	
+	div#NextImage {
+		left: 71vw;
+	}
+	
+	div#PreviousImage {
+		left: 37vw;
+	}
+	
+	div.navigation:hover {
+		cursor: pointer;
+		background-color: rgba(128,0,128,0.5);
+	}
+	
+	div#enlarged {
+		position: absolute;
+		top: 2vw;
+		left: 2vw;
+		width: 95%;
+		height: 92%;
+		background-color: rgba(0,0,0,0.8);
+		z-index: 20;
+		visibility: hidden;
+	}
+	
+	div#currentdesignholder {
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: auto;
+		top: 10%;
+		width: 95%;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	img#currentdesign {
+		width: 100%;
+		height: auto;
+	}
+	
+	div#close {
+		position: absolute;
+		top: 0.6vw;
+		right: 1vw;
+		color: white;
+	}
+	
+	div#close:hover {
+		text-shadow: 0 0 10px MEDIUMORCHID;
+		color: MEDIUMORCHID;
+		cursor: pointer;
+	}
+	
+	h3.Option {
+		padding: 0.3vw;
+		text-align: center;
+		text-shadow: 0 0 10px grey;
+		font-size: 2vw;
+		line-height: 2vw;
+	}
+	
+	h3.Current {
+		font-weight: bold;
+	}
+	
+	h3.Option:hover {
+		color: purple;
+		text-shadow: 0 0 10px purple;
+		cursor: pointer;
+	}
+}
+
+/* Tablet (portrait) */
+@media screen and (min-width:600px) and (max-width:800px) and (orientation:portrait){
+	div#col4 {
+		position: absolute;
+		top: 6vw;
+		left: 5%;
+		width: 90%;
+		height: 55%;
+		z-index: 2;
+		margin-top: 2vw;
+		border-top: 0.7vw ridge grey;
+		border-bottom: 0.7vw ridge grey;
+	}
+
+	div.imgHolder2 {
+		position: relative;
+		top: -2vw;
+		left: -14.5vw;
+		width: 48vw;
+		height: 33vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 5vw;
+		margin-bottom: 7vw;
+		border-radius: 1.5vw;
+		box-shadow: 0 0 20px grey;
+		z-index: 4;
+		cursor: pointer;
+	}
+	
+	div.overlay-text {
+		position: absolute;
+		top: 6vw;
+		width: 48vw;
+		height: 10vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 5.5vw;
+		margin-bottom: 5.5vw;
+		z-index: 5;
+		background-color: rgba(255,255,255,0.6);
+		font-family: 'Great Vibes', cursive;
+		color: black;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 6vw;
+		line-height: 12vw;
+		cursor: pointer;
+		text-transform: none;
+		text-shadow: none;
+	}
+	
+	img.range {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 54vw;
+		height: auto;
+		margin-left: -4vw;
+	}
+	
+	div.Design-list {
+		position: absolute;
+		right: 1vw;
+		height: 35vw;
+		top: 2vw;
+		width: 30vw;
+		overflow-y: auto;
+	}
+	
+	aside#disclaimer {
+		position: absolute;
+		top: 1vw;
+		left: 5%;
+		width: 90%;
+		height: 4vw;
+		font-size: 2.5vw;
+		font-weight: bold;
+	}
+	
+	aside#viewer {
+		position: absolute;
+		top: 70%;
+		left: 5%;
+		width: 90%;
+		height: 122%;
+		border-bottom: 0.7vw ridge grey;
+		margin-bottom: 4vw;
+	}
+	
+	img#main-img {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 78vw;
+		height: auto;
+		margin-left: -5vw;
+		cursor: pointer;
+	}
+	
+	div#main-img-holder {
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 66vw;
+		height: 40vw;
+		border-radius: 2vw;
+		overflow: hidden;
+		box-shadow: 0 0 30px 5px grey;
+	}
+	
+	div.sub-img-holder {
+		position: relative;
+		right: -27vw;
+		width: 18vw;
+		height: 11vw;
+		margin: 1vw 0 1vw 42.5vw;
+		border-radius: 1vw;
+		overflow: hidden;
+		box-shadow: 0 0 20px grey;
+	}
+	
+	div.sub-img-holder2 {
+		position: relative;
+		top: 0.2vw;
+		right: -17vw;
+		margin: 1vw 0 1vw 52.5vw;
+		width: 18vw;
+		height: 11vw;
+		border-radius: 1vw;
+		overflow: hidden;
+		box-shadow: 0 0 20px grey;
+	}
+	
+	div.sub-img-holder3 {
+		position: absolute;
+		bottom: 2vw;
+		right: 1.4vw;
+		width: 18vw;
+		height: 11vw;
+		border-radius: 1vw;
+		overflow: hidden;
+		box-shadow: 0 0 20px grey;
+	}
+	
+	div.sub-img-holder:hover {
+		cursor: pointer;
+		box-shadow: 0 0 20px purple;
+	}
+	
+	div.sub-img-holder2:hover {
+		cursor: pointer;
+		box-shadow: 0 0 20px purple;
+	}
+	
+	div.sub-img-holder3:hover {
+		cursor: pointer;
+		box-shadow: 0 0 20px purple;
+	}
+	
+	img.sub-img {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 23vw;
+		height: auto;
+		margin-left: -2vw;
+	}
+	
+	a.navigation {
+		position: absolute;
+		top: 14.5vw;
+		height: 10vw;
+		width: 4vw;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		font-weight: bold;
+		font-size: 5vw;
+		line-height: 9vw;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 6;
+		border-radius: 5vw;
+	}
+	
+	a.navigation:hover {
+		cursor: pointer;
+		background-color: rgba(128,0,128,0.5);
+	}
+	
+	a#NextRange {
+		left: 55.5vw;
+	}
+	
+	a#PreviousRange {
+		left: 0;
+	}
+	
+	div.navigation {
+		position: absolute;
+		top: 1vw;
+		height: 2.5vw;
+		width: 2.5vw;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		font-weight: bold;
+		font-size: 1.5vw;
+		line-height: 2.1vw;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 6;
+		border-radius: 5vw;
+	}
+	
+	div#NextImage {
+		left: 71vw;
+	}
+	
+	div#PreviousImage {
+		left: 37vw;
+	}
+	
+	div.navigation:hover {
+		cursor: pointer;
+		background-color: rgba(128,0,128,0.5);
+	}
+	
+	div#enlarged {
+		position: absolute;
+		top: 30vw;
+		right: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: 95%;
+		height: 45%;
+		background-color: rgba(0,0,0,0.8);
+		z-index: 20;
+		visibility: hidden;
+	}
+	
+	div#currentdesignholder {
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: auto;
+		top: 10%;
+		width: 98%;
+		height: 90%;
+		overflow: hidden;
+	}
+	
+	img#currentdesign {
+		width: 100%;
+		height: auto;
+		margin-top: -5%;
+	}
+	
+	div#close {
+		position: absolute;
+		top: 0.6vw;
+		right: 1vw;
+		color: white;
+		font-size: 4vw;
+	}
+	
+	div#close:hover {
+		text-shadow: 0 0 10px MEDIUMORCHID;
+		color: MEDIUMORCHID;
+		cursor: pointer;
+	}
+	
+	h3.Option {
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+		padding: 0.3vw;
+		text-align: center;
+		text-shadow: 0 0 10px grey;
+		font-size: 3vw;
+		line-height: 3vw;
+	}
+	
+	h3.Current {
+		font-weight: bold;
+	}
+	
+	h3.Option:hover {
+		color: purple;
+		text-shadow: 0 0 10px purple;
+		cursor: pointer;
+	}
+}
+
+/* Tablet (landscape) */
+@media screen and (min-width:740px) and (max-width:1024px) and (orientation:landscape){
+	div#col4 {
+		position: absolute;
+		top: 10vw;
+		left: 3vw;
+		width: 30vw;
+		height: 39vw;
+		z-index: 2;
+		border-top: 0.3vw ridge grey;
+		border-bottom: 0.3vw ridge grey;
+		margin-bottom: 2vw;
+		margin-bottom: 5vw;
+	}
+
+	div.imgHolder2 {
+		position: relative;
+		top: -1vw;
+		width: 25vw;
+		height: 15vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 2.5vw;
+		margin-bottom: 2.5vw;
+		border-radius: 1.5vw;
+		box-shadow: 0 0 20px grey;
+		z-index: 4;
+	}
+	
+	div.overlay-text {
+		position: absolute;
+		top: -1.5vw;
+		width: 25vw;
+		height: 7vw;
+		margin: 0 auto;
+		overflow: hidden;
+		margin-top: 5.5vw;
+		margin-bottom: 5.5vw;
+		z-index: 5;
+		background-color: rgba(255,255,255,0.6);
+		font-family: 'Great Vibes', cursive;
+		color: black;
+		text-align: center;
+		vertical-align: middle;
+		font-size: 3vw;
+		line-height: 7vw;
+		text-transform: none;
+		text-shadow: none;
+	}
+	
+	img.range {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 30vw;
+		height: auto;
+		margin-left: -4vw;
+	}
+	
+	div.Design-list {
+		position: relative;
+		height: 21vw;
+		top: -2.5vw;
+		width: 30vw;
+		overflow-y: auto;
+	}
+	
+	aside#disclaimer {
+		position: absolute;
+		top: 2.5vw;
+		right: 1vw;
+		width: 22vw;
+		font-size: 1.6vw;
+	}
+	
+	aside#viewer {
+		position: absolute;
+		top: 10vw;
+		left: 35vw;
+		width: 62vw;
+		height: 39vw;
+		border-top: 0.3vw ridge grey;
+		border-bottom: 0.3vw ridge grey;
+		margin-bottom: 5vw;
+	}
+	
+	img#main-img {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 60vw;
+		height: auto;
+		margin-left: -10vw;
+		cursor: pointer;
+	}
+	
+	div#main-img-holder {
+		position: absolute;
+		left: 1vw;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 40vw;
+		height: 30vw;
+		border-radius: 2vw;
+		overflow: hidden;
+		box-shadow: 0 0 30px 5px grey;
+		border: 1px solid grey;
+	}
+	
+	div.sub-img-holder {
+		position: relative;
+		width: 9vw;
+		height: 7vw;
+		top: 0.5vw;
+		margin: 1.9vw 0 1.9vw 43vw;
+		border-radius: 1vw;
+		overflow: hidden;
+		box-shadow: 0 0 20px grey;
+		border: 1px solid grey;
+	}
+	
+	div.sub-img-holder2 {
+		position: relative;
+		top: -26.8vw;
+		margin: 1.9vw 0 1.9vw 53vw;
+		width: 9vw;
+		height: 7vw;
+		border-radius: 1vw;
+		overflow: hidden;
+		box-shadow: 0 0 20px grey;
+		border: 1px solid grey;
+	}
+	
+	div.sub-img-holder3 {
+		position: absolute;
+		bottom: 2vw;
+		right: 5vw;
+		width: 9vw;
+		height: 7vw;
+		border-radius: 1vw;
+		overflow: hidden;
+		box-shadow: 0 0 20px grey;
+		border: 1px solid grey;
+	}
+	
+	div.sub-img-holder:hover {
+		cursor: pointer;
+		box-shadow: 0 0 20px purple;
+	}
+	
+	div.sub-img-holder2:hover {
+		cursor: pointer;
+		box-shadow: 0 0 20px purple;
+	}
+	
+	div.sub-img-holder3:hover {
+		cursor: pointer;
+		box-shadow: 0 0 20px purple;
+	}
+	
+	img.sub-img {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 14vw;
+		height: auto;
+		margin-left: -2vw;
+	}
+	
+	a.navigation {
+		position: absolute;
+		top: 7vw;
+		height: 4vw;
+		width: 2vw;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		font-weight: bold;
+		font-size: 2vw;
+		line-height: 3.7vw;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 6;
+		border-radius: 5vw;
+	}
+	
+	a.navigation:hover {
+		cursor: pointer;
+		background-color: rgba(128,0,128,0.5);
+	}
+	
+	a#NextRange {
+		right: 0;
+	}
+	
+	a#PreviousRange {
+		left: 0;
+	}
+	
+	div.navigation {
+		position: absolute;
+		top: 20vw;
+		height: 2.5vw;
+		width: 2.5vw;
+		background-color: rgba(0,0,0,0.5);
+		color: white;
+		font-weight: bold;
+		font-size: 1.5vw;
+		line-height: 2.1vw;
+		text-align: center;
+		vertical-align: middle;
+		z-index: 6;
+		border-radius: 5vw;
+	}
+	
+	div#NextImage {
+		left: 71vw;
+	}
+	
+	div#PreviousImage {
+		left: 37vw;
+	}
+	
+	div.navigation:hover {
+		cursor: pointer;
+		background-color: rgba(128,0,128,0.5);
+	}
+	
+	div#enlarged {
+		position: absolute;
+		top: 7vw;
+		left: 2vw;
+		width: 95%;
+		height: 80%;
+		background-color: rgba(0,0,0,0.8);
+		z-index: 20;
+		visibility: hidden;
+	}
+	
+	div#currentdesignholder {
+		position: absolute;
+		left: 0;
+		right: 0;
+		margin: auto;
+		top: 10%;
+		width: 95%;
+		height: 100%;
+		overflow: hidden;
+	}
+	
+	img#currentdesign {
+		width: 100%;
+		height: auto;
+	}
+	
+	div#close {
+		position: absolute;
+		top: 0.6vw;
+		right: 1vw;
+		color: white;
+	}
+	
+	div#close:hover {
+		text-shadow: 0 0 10px MEDIUMORCHID;
+		color: MEDIUMORCHID;
+		cursor: pointer;
+	}
+	
+	h3.Option {
+		padding: 0.3vw;
+		text-align: center;
+		text-shadow: 0 0 10px grey;
+		font-size: 1.6vw;
+		line-height: 2vw;
+	}
+	
+	h3.Current {
+		font-weight: bold;
+	}
+	
+	h3.Option:hover {
+		color: purple;
+		text-shadow: 0 0 10px purple;
+		cursor: pointer;
+	}
+}
